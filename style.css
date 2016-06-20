@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  border: solid red 4px;
+  border-radius: 15px;
+  height: 100px;
+  width: 350px;
+  top: 275px;
+  left: 30%;
+  right: 40%;
+  display: inline-block; }
+  .container span {
+    color: white;
+    left: 80px;
+    top: 22px;
+    font-size: 88px; }
+
+body {
+  text-align: center;
+  background-color: lightgray; }
