@@ -20,9 +20,11 @@ if(justSeconds < 10){
 
 var time = document.querySelector('.clock');
 var time2 = document.querySelector('.clock2');
-
+var color = ("#" + justHours + justMinutes + justSeconds);
 time.innerHTML = (justHours + ":" + justMinutes + ":" + justSeconds)
 time2.innerHTML = ("#" + justHours + justMinutes + justSeconds)
+var boxColor = document.querySelector('#colorchanger');
+boxColor.style.backgroundColor = color;
 
 };
 var intervalID = window.setInterval(timer, 1000);
